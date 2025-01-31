@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  background-color: rgb(243, 241, 241);
+}
+
+.App-logo {
+  height: 50px;
+  pointer-events: none;
+}
+
+.App-header {
+  display: flex;
+  flex-direction:row;
+  justify-content:flex-start;
+  font-size: calc(10px + 2vmin);
+  height: 50px;
+  background-color: blue;
+}
+
+.logo-container {
+  width: 35px;
+  overflow: hidden;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: stretch;
+  margin-top: 50px;
+  height: 100%;
+}
+
+.body-item-left {
+  flex: 30%;
+  height: 100%;
+}
+
+.body-item-right {
+  flex: 70%;
+  height: 100%;
+}
